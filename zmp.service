@@ -4,10 +4,10 @@ After=network.target
 
 [Service]
 Type=simple
-User=zmp
+User=root
 NonBlocking=true
-WorkingDirectory=/home/zmp
-ExecStart=/home/zmp/zmp-linux-amd64 --host 192.168.1.200 "http://pastebin.com/raw/nFkHuNBL" --best --sort --rosnd --rosua ru.rt.video.player.hls.HlsWinkPlayer --loglevel off
+WorkingDirectory=/zmp
+ExecStart=/zmp/zmp-linux-amd64 --host 192.168.1.200 "http://pastebin.com/raw/nFkHuNBL" --best --sort --rosnd --rosua ru.rt.video.player.hls.HlsWinkPlayer --loglevel off
 ExecStop=/usr/bin/killall -w zmp-linux-amd64
 Restart=on-failure
 RestartSec=10s
