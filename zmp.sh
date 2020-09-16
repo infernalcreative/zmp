@@ -4,5 +4,6 @@ mkdir /zmp
 cp zmp-linux-amd64 /zmp
 chmod +x zmp-linux-amd64
 chmod -R 744 /zmp
-wget https://raw.githubusercontent.com/infernalcreative/zmp/master/zmp.service -o /etc/systemd/system/zmp.service
+wget https://raw.githubusercontent.com/infernalcreative/zmp/master/zmp.service
+cp zmp.service /etc/systemd/system
 echo "modify /etc/systemd/system/zmp.service and run systemctl start zmp"
