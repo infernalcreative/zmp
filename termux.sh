@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-mkdir -p ~./termux/boot
+mkdir -p ~/.termux/boot
 cd ~/.termux/boot
 wget https://github.com/infernalcreative/zmp/raw/master/zmp-android-arm64
 wget https://raw.githubusercontent.com/infernalcreative/zmp/master/termuxzmp
