@@ -28,5 +28,12 @@ chmod +x termux.sh
 
 arm7:
 
+wget https://raw.githubusercontent.com/infernalcreative/zmp/master/termux7.sh
+
+chmod +x termux7.sh
+
+./termux7.sh
+
+
 
 
