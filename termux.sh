@@ -1,5 +1,4 @@
-apt update
-apt install wget
+#!/data/data/com.termux/files/usr/bin/bash
 mkdir ~/.termux
 mkdir ~./termux/boot
 cd ~/.termux/boot
