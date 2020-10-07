@@ -17,9 +17,16 @@ apt update
 
 apt install wget
 
+arm64:
+
 wget https://raw.githubusercontent.com/infernalcreative/zmp/master/termux.sh
 
 chmod +x termux.sh
 
 ./termux.sh
+
+
+arm7:
+
+
 
