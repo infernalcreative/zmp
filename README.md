@@ -7,7 +7,7 @@ chmod +x zmp.sh
 
 ./zmp.sh
 
-#zmp termux Android
+# zmp termux Android
 
 Install termux and termux boot
 
